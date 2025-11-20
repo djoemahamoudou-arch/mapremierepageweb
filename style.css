@@ -10,17 +10,18 @@ h1{
 .rsma{
     color: blue;
 }  
-.rsma2{
+.rsma{
     color: blue;
 } 
+
 .rsma{
     font-style: italic;
 }
-.rsma2{
-    font-style: italic;
-}
-p{
-    font-size: 16px;
+.rsma{
+    font-weight: bold;
 }
 
-font-family: 'Roboto', sans-serif;
+
+body{
+    texte-family:'Sofia', sans-serif;
+}
