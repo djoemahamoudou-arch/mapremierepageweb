@@ -14,8 +14,7 @@ h1{
     color: blue;
 } 
 
-.rsma{
-    font-style: italic;
+
 }
 .rsma{
     font-weight: bold;
@@ -24,4 +23,24 @@ h1{
 
 body{
     texte-family:'Sofia', sans-serif;
+}
+ h1{
+    text-align: center;
+ }
+ 1em{
+    font-size: 16px;
+ }
+ h1{
+    color:#A5B4FC;
+ }
+
+h1{
+    font-style: Montserrat, sans-serif;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+1em{
+    font-size: 1em;
 }
