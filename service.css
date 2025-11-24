@@ -1,0 +1,29 @@
+/*Ici, je rédige la feuille de style pour mettre en forme le fichier service.css*/
+#div1{
+    color: red;
+    background-color: thistle;
+    border-style:dashed ;
+    
+    
+}
+
+#div2{
+      
+    background-color: lightblue;
+    border-style: dotted;
+    color: cadetblue;
+}
+#div3{
+    background-color: lightgreen;
+    border-style: solid;
+    color: darkmagenta;
+    
+}
+#div4{
+    background-color: lightyellow;
+    border-style: double;
+    color: deepskyblue;
+    
+}
+
+
