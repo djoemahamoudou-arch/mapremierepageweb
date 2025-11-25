@@ -74,16 +74,16 @@
 }
 
 #div6{
-   border-radius:50px 40px 30px 20px ;
+   border-radius:10px ;
    box-shadow:6px 6px 0px rgba(0, 0, 0);
    border-style: solid;
    text-align: center;
    background-color: lightseagreen;
-   width: 150px;
-   height: 150px;
+   width: 200px;
+   height: 270px;
+   
 
   
-   
-}
+   }
     
 
