@@ -8,22 +8,81 @@
 }
 
 #div2{
-      
+    /*Ici, je définis le style pour le div2*/  
     background-color: lightblue;
     border-style: dotted;
     color: cadetblue;
 }
 #div3{
+    /*Ici, je définis le style pour le div3*/
     background-color: lightgreen;
     border-style: solid;
     color: darkmagenta;
     
 }
 #div4{
+    /*Ici, je définis le style pour le div4*/
     background-color: lightyellow;
-    border-style: double;
+    border-style: radus;
     color: deepskyblue;
     
 }
 
+#dv1{
+  border:solid;
+  color:black;
+  text-align: center;
+  border-radius:45px 30px 45px 45px    
+}
+
+#div2{
+  border:dotted;
+  color:red;
+  text-align:center;
+  border-radius:20px
+   
+}
+
+#div3{
+  border:double;
+  text-align:center;
+  border-radius:45px
+}    
+  
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f6f6f6;
+}
+
+.flower {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.petal {
+  width: 70px;
+  height: 70px;
+  background: pink;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.p1 { top: 0; left: 40px; }
+.p2 { bottom: 0; left: 40px; }
+.p3 { top: 40px; left: 0; }
+.p4 { top: 40px; right: 0; }
+
+.center {
+  width: 60px;
+  height: 60px;
+  background: gold;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
 
