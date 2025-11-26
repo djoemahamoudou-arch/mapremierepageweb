@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html=lang="fr">
-  <head>
+ <head>
     <meta charset="UTF-8">
-    <title>formulaire d'inscription .</title>
+    <title>formulaire d'inscription </title>
+    <link href="formulaire.css"rel="stylesheet">
     
 </head>
     <body>
+        <h2><u>Formulaires HTML.</u></h2>
+        <!--je rédige la structure du formulaire d'inscription-->
+        <form>
+            <div>
+              <!--label c'est le prenom-->
+              <label for="Prénom">Prénom(s):</label>
+              <!--input c'est pour le zone saisir-->
+              <input type="text" name="prenom" id="prénom">
+              <!--label c'est le nom-->
+              <label for="Nom">Nom:</label>
+              <!--input c'est pour le zone a saisir en mettent "name"pour ce que j'ai écrie à l'intérieure .-->
+              <input type="text" name="surname" id="nom">
+            </div>
+             <br></br>
+            <div>
+             <label for="date de naissance">Date de naissance :</label>
+             <input type="Date" name="date de naissance" id="date de naissance">
+             <label for="Ville">ville:</label>
+             <input type="text" name="ville" id="ville">
+             <!--1 label pour ensuite utiliser le br pour espacé ensuite input ajouté la zone de saisie-->
+            </div>
+             <br></br>
+             <label for="Code postale">Code postal:</label>
+             <input type="text" name="code postale" id="code postale">
+             <br></br>
+             <!--label pour l'email-->
+             <label for="Email">Email:</label>
+             <!--input pour la zone de saisie de l'email-->
+             <input type="email" name="email" id="email">
+             <br></br>
+             <label for="Genre">Genre:</label>
+             <input type="radio" name="sexe" id="féminin">
+             <label for="féminin">F</label>
+             <input type="radio" name="sexe" id="masculin">
+             <label for="masculin">M</label>
+             <br></br>
+             <label>Disciplines:</label>
+             <input type="checkbox">
+             <label>Mathématique</label>
+             <!--checkbox on peut créé des petite carré ensuite sa va permet de tout sélèctionner. -->
+             <input type="checkbox"><br><label>Histoire</label><input type="checkbox"><label>géographie</label>
+             <input type="checkbox"><br></br>
+             <!--je crée un bouton pour envoyer le formulaire-->
+             <input type="submit" value="Envoyer">
+
+    
+            
+               
+             </form>
+     <form>
+
+     </form>        
 
 
         
