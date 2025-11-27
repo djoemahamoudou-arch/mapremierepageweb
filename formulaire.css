@@ -1,5 +1,6 @@
 body{
     background-image: url(cover.jpg);
+    
 
     
     
@@ -7,15 +8,15 @@ body{
     
 }
 div{
-    display:inline;
-    margin-bottom: ;
-    
-    
-    
-    
-    
-}
+    margin-inline-start: 15px;
+} 
 
+ h2{
+    margin-inline-start: 15px;
+ }   
+    
+
+ 
 input[type=text],input[type=Date],input[type=email],[type=submit]{
       padding: 3px; /*padding permet de modifier la taille de input */ 
       margin:10px; /*margine permet de l'argir .*/
