@@ -1,5 +1,6 @@
 body{
-    background-image: url(cover.jpg);
+    background-color:rgb(239, 237, 234);
+
     
 
     
@@ -9,24 +10,25 @@ body{
 }
 div{
     margin-inline-start: 15px;
+    background-color: darkorange;
+    padding: 5px;
 } 
 
  h2{
-    margin-inline-start: 15px;
+    margin-inline-start: 20px;
+    background-color: darkorange;
+
  }   
     
 
  
-input[type=text],input[type=Date],input[type=email],[type=submit]{
+input[type=text],input[type=Date],input[type=email],[type=submit],
       padding: 3px; /*padding permet de modifier la taille de input */ 
       margin:10px; /*margine permet de l'argir .*/
       border-radius: 5px; /*border-radius permet de crée un bordure a l'interieure de mon texte .*/
       border-color: black; /*il met la couleur du bordure qu'on veut .*/
 
-    
-    
-    
-}
+
 
 
 
